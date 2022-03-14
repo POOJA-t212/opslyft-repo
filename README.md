@@ -90,3 +90,20 @@ Once I ran the docker run with above image on particular port it got started in 
 and my simple hello world website is up and running. see png attachment
 
 <img width="716" alt="image" src="https://user-images.githubusercontent.com/98540570/158225548-a8f1933c-92a3-479e-9c5a-4602324fb2ec.png">
+
+
+
+Once it website is published we have to tag the docker image and push it to the ECR, using below commands.
+
+docker tag flask-py-docker-2  527805459418.dkr.ecr.ap-northeast-1.amazonaws.com/flask-v1:latest
+
+push command
+
+docker push 527805459418.dkr.ecr.ap-northeast-1.amazonaws.com/flask-v1:latest
+
+
+this will push the docker image to ECR.
+
+Thanks YOu.
+Looking forward to hear.
+
