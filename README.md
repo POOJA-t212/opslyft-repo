@@ -73,3 +73,20 @@ Create two files; **app.py** and **Dockerfile**
 
 ###Thanks you From POOJA
 
+
+
+
+###########screenshot of an flask application running in docker container and opening in browser####
+
+Once I build the docker image using below command 
+#docker build --tag flask-py-docker-2 .
+this has created my images in my local ..please see below.
+#flask-py-docker-2              latest              a8fdbfef3095   23 hours ago    906MB
+
+Once I ran the docker run with above image on particular port it got started in my local.
+
+##docker run -d -p 5010:5010 flask-py-docker-2
+
+and my simple hello world website is up and running. see png attachment
+
+<img width="716" alt="image" src="https://user-images.githubusercontent.com/98540570/158225548-a8f1933c-92a3-479e-9c5a-4602324fb2ec.png">
