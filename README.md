@@ -9,10 +9,9 @@
 ## Set up & Installation.
 
 ### 1 .Clone/Fork the git repo and create a virtual environment 
-                    
-git clone https://github.com/Dev-Elie/Flask-Docker-App.git
-cd Flask-Docker-App
-python3 -m venv venv
+
+
+1. clone any flask sample repo.
 
 ```
 ### 2 .Activate the environment
