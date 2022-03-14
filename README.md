@@ -85,7 +85,7 @@ this has created my images in my local ..please see below.
 
 Once I ran the docker run with above image on particular port it got started in my local.
 
-##docker run -d -p 5010:5010 flask-py-docker-2
+##docker run -d -p 5000:5000 flask-py-docker-2
 
 and my simple hello world website is up and running. see png attachment
 
